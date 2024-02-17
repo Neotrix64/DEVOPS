@@ -20,4 +20,4 @@ jobs:
       run: |
         # Configurar Surge.sh
         npm install --global surge
-         - run: surge ./ ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+        surge ./ ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
